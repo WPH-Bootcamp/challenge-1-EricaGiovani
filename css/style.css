@@ -129,7 +129,6 @@ nav ul li a:hover{
     border-bottom: 1px solid #00FFFF;
 }
 .title{
-    color:white;
     width:100%;
     margin-bottom:20px;
     text-align: center;
@@ -203,4 +202,62 @@ nav ul li a:hover{
     font-size:40px;
     color: white;
 }
+.achievements{
+    background-color: black;
+    padding:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    border-bottom: 1px solid #00FFFF
 
+}
+.title2{
+    width:100%;
+    margin-bottom:20px;
+    text-align: center;
+    font-family: "Bitcount Single", system-ui;
+    font-optical-sizing: auto;
+    font-size:40px;
+    color:rgb(236, 21, 236);
+    grid-column: 1 / -1;
+}
+.achievement-card{
+    border:1px solid #00FFFF;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
+    background:rgb(236, 21, 236);
+    width:280px;
+    transition: all 0.3s ease;
+    cursor:pointer;
+}
+.achievement-card:hover{
+    transform:scale(1.05);
+    background:rgb(236, 21, 236);
+    border:1px solid #00FFFF;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.301);
+}
+.achievement-card .name{
+    color:black;
+    font-size:16px;
+    text-align:center;
+    border-bottom:1px solid rgba(255, 255, 255, 0.589);
+    padding-bottom:5px;
+    margin-bottom:8px;
+    font-family: "Bitcount Single", system-ui;
+    font-optical-sizing: auto;
+}
+.achievement-card .achievement-date{
+    color:#00FFFF;
+    font-size:14px;
+    text-align:right;
+    margin-bottom:10px;
+    
+}
+.achievement-card .description{
+    color:white;
+    font-size:14px;
+    text-align:justify;
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
